@@ -15,6 +15,15 @@
 ########################
 
 //Value Computed by CMake
+AlgorithmPracticeTool_BINARY_DIR:STATIC=/Users/michael/Github/Algorithms-Practice/build
+
+//Value Computed by CMake
+AlgorithmPracticeTool_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+AlgorithmPracticeTool_SOURCE_DIR:STATIC=/Users/michael/Github/Algorithms-Practice
+
+//Value Computed by CMake
 AlgorithmTester_BINARY_DIR:STATIC=/Users/michael/Github/Algorithms-Practice/build
 
 //Value Computed by CMake
@@ -167,7 +176,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=AlgorithmTester
+CMAKE_PROJECT_NAME:STATIC=AlgorithmPracticeTool
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib

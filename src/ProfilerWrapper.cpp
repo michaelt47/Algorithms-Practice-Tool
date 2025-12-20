@@ -1,4 +1,4 @@
-#include "Tester.h"
+#include "Profiler.h"
 #include "Algorithm.h"
 #include "Summation.cpp"
 #include "BinarySearch.cpp"
@@ -6,7 +6,7 @@
 using namespace std;
 
 void getAlgorithm(const string &algStr, const string &modeStr, 
-                Algorithm *&algorithm, Tester::FileSizeMode &testMode) {
+                Algorithm *&algorithm, Profiler::FileSizeMode &testMode) {
     if (BinarySearch::alias(algStr)) {
         algorithm = new BinarySearch();
     } else if (Summation::alias(algStr)) {
@@ -17,27 +17,27 @@ void getAlgorithm(const string &algStr, const string &modeStr,
     }
 
     if (modeStr == "Small" || modeStr == "small") {
-        testMode = Tester::FileSizeMode::Small;
+        testMode = Profiler::FileSizeMode::Small;
     } else if (modeStr == "Medium" || modeStr == "medium") {
-        testMode = Tester::FileSizeMode::Medium;
+        testMode = Profiler::FileSizeMode::Medium;
     } else if (modeStr == "Big" || modeStr == "big") {
-        testMode = Tester::FileSizeMode::Big;
+        testMode = Profiler::FileSizeMode::Big;
     } else if (modeStr == "All" || modeStr == "all") {
-        testMode = Tester::FileSizeMode::All;
+        testMode = Profiler::FileSizeMode::All;
     } else {
         cout << "Invalid mode, defaulting to small\n";
-        testMode = Tester::FileSizeMode::Small;
+        testMode = Profiler::FileSizeMode::Small;
     }
 }
 
 void Test(const string &algStr, const string &modeStr) {
-    Tester::FileSizeMode testMode;
+    Profiler::FileSizeMode testMode;
     Algorithm *algorithm;
 
     getAlgorithm(algStr, modeStr, algorithm, testMode);
 
     if (algorithm) {
-        Tester::runOnFiles(testMode, algorithm);
+        Profiler::runOnFiles(testMode, algorithm);
         delete algorithm;
     }
 }

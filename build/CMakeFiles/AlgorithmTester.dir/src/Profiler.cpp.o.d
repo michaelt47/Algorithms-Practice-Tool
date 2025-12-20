@@ -1,6 +1,5 @@
-CMakeFiles/AlgorithmTester.dir/src/main.cpp.o: \
-  /Users/michael/Github/Algorithms-Practice/src/main.cpp \
-  /Users/michael/Github/Algorithms-Practice/src/ProfilerWrapper.cpp \
+CMakeFiles/AlgorithmTester.dir/src/Profiler.cpp.o: \
+  /Users/michael/Github/Algorithms-Practice/src/Profiler.cpp \
   /Users/michael/Github/Algorithms-Practice/include/Profiler.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/filesystem \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
@@ -812,8 +811,4 @@ CMakeFiles/AlgorithmTester.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/u8path.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
-  /Users/michael/Github/Algorithms-Practice/include/Algorithm.h \
-  /Users/michael/Github/Algorithms-Practice/SimpleAlgs/Summation.cpp \
-  /Users/michael/Github/Algorithms-Practice/include/IntArrayLoader.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/fstream \
-  /Users/michael/Github/Algorithms-Practice/SimpleAlgs/BinarySearch.cpp
+  /Users/michael/Github/Algorithms-Practice/include/Algorithm.h

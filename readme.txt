@@ -41,4 +41,4 @@ Build this program by going to the base directory and running
 
 Running:
 
-Run with ./bin/AlgorithmTester [algorithm] [mode]
+Run with ./bin/AlgorithmPracticeTool [algorithm] [mode]

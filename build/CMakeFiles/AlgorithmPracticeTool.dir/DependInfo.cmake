@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/michael/Github/Algorithms-Practice/src/Profiler.cpp" "CMakeFiles/AlgorithmTester.dir/src/Profiler.cpp.o" "gcc" "CMakeFiles/AlgorithmTester.dir/src/Profiler.cpp.o.d"
-  "/Users/michael/Github/Algorithms-Practice/src/main.cpp" "CMakeFiles/AlgorithmTester.dir/src/main.cpp.o" "gcc" "CMakeFiles/AlgorithmTester.dir/src/main.cpp.o.d"
+  "/Users/michael/Github/Algorithms-Practice/src/Profiler.cpp" "CMakeFiles/AlgorithmPracticeTool.dir/src/Profiler.cpp.o" "gcc" "CMakeFiles/AlgorithmPracticeTool.dir/src/Profiler.cpp.o.d"
+  "/Users/michael/Github/Algorithms-Practice/src/main.cpp" "CMakeFiles/AlgorithmPracticeTool.dir/src/main.cpp.o" "gcc" "CMakeFiles/AlgorithmPracticeTool.dir/src/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

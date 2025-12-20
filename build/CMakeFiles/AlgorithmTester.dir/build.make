@@ -86,30 +86,30 @@ CMakeFiles/AlgorithmTester.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AlgorithmTester.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/michael/Github/Algorithms-Practice/src/main.cpp -o CMakeFiles/AlgorithmTester.dir/src/main.cpp.s
 
-CMakeFiles/AlgorithmTester.dir/src/Tester.cpp.o: CMakeFiles/AlgorithmTester.dir/flags.make
-CMakeFiles/AlgorithmTester.dir/src/Tester.cpp.o: /Users/michael/Github/Algorithms-Practice/src/Tester.cpp
-CMakeFiles/AlgorithmTester.dir/src/Tester.cpp.o: CMakeFiles/AlgorithmTester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/michael/Github/Algorithms-Practice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/AlgorithmTester.dir/src/Tester.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AlgorithmTester.dir/src/Tester.cpp.o -MF CMakeFiles/AlgorithmTester.dir/src/Tester.cpp.o.d -o CMakeFiles/AlgorithmTester.dir/src/Tester.cpp.o -c /Users/michael/Github/Algorithms-Practice/src/Tester.cpp
+CMakeFiles/AlgorithmTester.dir/src/Profiler.cpp.o: CMakeFiles/AlgorithmTester.dir/flags.make
+CMakeFiles/AlgorithmTester.dir/src/Profiler.cpp.o: /Users/michael/Github/Algorithms-Practice/src/Profiler.cpp
+CMakeFiles/AlgorithmTester.dir/src/Profiler.cpp.o: CMakeFiles/AlgorithmTester.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/michael/Github/Algorithms-Practice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/AlgorithmTester.dir/src/Profiler.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AlgorithmTester.dir/src/Profiler.cpp.o -MF CMakeFiles/AlgorithmTester.dir/src/Profiler.cpp.o.d -o CMakeFiles/AlgorithmTester.dir/src/Profiler.cpp.o -c /Users/michael/Github/Algorithms-Practice/src/Profiler.cpp
 
-CMakeFiles/AlgorithmTester.dir/src/Tester.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AlgorithmTester.dir/src/Tester.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/michael/Github/Algorithms-Practice/src/Tester.cpp > CMakeFiles/AlgorithmTester.dir/src/Tester.cpp.i
+CMakeFiles/AlgorithmTester.dir/src/Profiler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AlgorithmTester.dir/src/Profiler.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/michael/Github/Algorithms-Practice/src/Profiler.cpp > CMakeFiles/AlgorithmTester.dir/src/Profiler.cpp.i
 
-CMakeFiles/AlgorithmTester.dir/src/Tester.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AlgorithmTester.dir/src/Tester.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/michael/Github/Algorithms-Practice/src/Tester.cpp -o CMakeFiles/AlgorithmTester.dir/src/Tester.cpp.s
+CMakeFiles/AlgorithmTester.dir/src/Profiler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AlgorithmTester.dir/src/Profiler.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/michael/Github/Algorithms-Practice/src/Profiler.cpp -o CMakeFiles/AlgorithmTester.dir/src/Profiler.cpp.s
 
 # Object files for target AlgorithmTester
 AlgorithmTester_OBJECTS = \
 "CMakeFiles/AlgorithmTester.dir/src/main.cpp.o" \
-"CMakeFiles/AlgorithmTester.dir/src/Tester.cpp.o"
+"CMakeFiles/AlgorithmTester.dir/src/Profiler.cpp.o"
 
 # External object files for target AlgorithmTester
 AlgorithmTester_EXTERNAL_OBJECTS =
 
 /Users/michael/Github/Algorithms-Practice/bin/AlgorithmTester: CMakeFiles/AlgorithmTester.dir/src/main.cpp.o
-/Users/michael/Github/Algorithms-Practice/bin/AlgorithmTester: CMakeFiles/AlgorithmTester.dir/src/Tester.cpp.o
+/Users/michael/Github/Algorithms-Practice/bin/AlgorithmTester: CMakeFiles/AlgorithmTester.dir/src/Profiler.cpp.o
 /Users/michael/Github/Algorithms-Practice/bin/AlgorithmTester: CMakeFiles/AlgorithmTester.dir/build.make
 /Users/michael/Github/Algorithms-Practice/bin/AlgorithmTester: CMakeFiles/AlgorithmTester.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/michael/Github/Algorithms-Practice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable /Users/michael/Github/Algorithms-Practice/bin/AlgorithmTester"

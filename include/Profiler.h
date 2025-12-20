@@ -5,7 +5,7 @@
 
 namespace fs = std::filesystem;
 
-class Tester {
+class Profiler {
 public:
     enum class FileSizeMode
     {

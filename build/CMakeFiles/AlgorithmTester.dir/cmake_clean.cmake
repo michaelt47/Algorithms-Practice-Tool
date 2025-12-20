@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "/Users/michael/Github/Algorithms-Practice/bin/AlgorithmTester"
   "/Users/michael/Github/Algorithms-Practice/bin/AlgorithmTester.pdb"
-  "CMakeFiles/AlgorithmTester.dir/src/Tester.cpp.o"
-  "CMakeFiles/AlgorithmTester.dir/src/Tester.cpp.o.d"
+  "CMakeFiles/AlgorithmTester.dir/src/Profiler.cpp.o"
+  "CMakeFiles/AlgorithmTester.dir/src/Profiler.cpp.o.d"
   "CMakeFiles/AlgorithmTester.dir/src/main.cpp.o"
   "CMakeFiles/AlgorithmTester.dir/src/main.cpp.o.d"
 )

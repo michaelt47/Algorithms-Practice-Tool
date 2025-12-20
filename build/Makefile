@@ -117,48 +117,48 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named AlgorithmTester
+# Target rules for targets named AlgorithmPracticeTool
 
 # Build rule for target.
-AlgorithmTester: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 AlgorithmTester
-.PHONY : AlgorithmTester
+AlgorithmPracticeTool: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 AlgorithmPracticeTool
+.PHONY : AlgorithmPracticeTool
 
 # fast build rule for target.
-AlgorithmTester/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlgorithmTester.dir/build.make CMakeFiles/AlgorithmTester.dir/build
-.PHONY : AlgorithmTester/fast
+AlgorithmPracticeTool/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlgorithmPracticeTool.dir/build.make CMakeFiles/AlgorithmPracticeTool.dir/build
+.PHONY : AlgorithmPracticeTool/fast
 
-src/Tester.o: src/Tester.cpp.o
-.PHONY : src/Tester.o
+src/Profiler.o: src/Profiler.cpp.o
+.PHONY : src/Profiler.o
 
 # target to build an object file
-src/Tester.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlgorithmTester.dir/build.make CMakeFiles/AlgorithmTester.dir/src/Tester.cpp.o
-.PHONY : src/Tester.cpp.o
+src/Profiler.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlgorithmPracticeTool.dir/build.make CMakeFiles/AlgorithmPracticeTool.dir/src/Profiler.cpp.o
+.PHONY : src/Profiler.cpp.o
 
-src/Tester.i: src/Tester.cpp.i
-.PHONY : src/Tester.i
+src/Profiler.i: src/Profiler.cpp.i
+.PHONY : src/Profiler.i
 
 # target to preprocess a source file
-src/Tester.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlgorithmTester.dir/build.make CMakeFiles/AlgorithmTester.dir/src/Tester.cpp.i
-.PHONY : src/Tester.cpp.i
+src/Profiler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlgorithmPracticeTool.dir/build.make CMakeFiles/AlgorithmPracticeTool.dir/src/Profiler.cpp.i
+.PHONY : src/Profiler.cpp.i
 
-src/Tester.s: src/Tester.cpp.s
-.PHONY : src/Tester.s
+src/Profiler.s: src/Profiler.cpp.s
+.PHONY : src/Profiler.s
 
 # target to generate assembly for a file
-src/Tester.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlgorithmTester.dir/build.make CMakeFiles/AlgorithmTester.dir/src/Tester.cpp.s
-.PHONY : src/Tester.cpp.s
+src/Profiler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlgorithmPracticeTool.dir/build.make CMakeFiles/AlgorithmPracticeTool.dir/src/Profiler.cpp.s
+.PHONY : src/Profiler.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlgorithmTester.dir/build.make CMakeFiles/AlgorithmTester.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlgorithmPracticeTool.dir/build.make CMakeFiles/AlgorithmPracticeTool.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -166,7 +166,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlgorithmTester.dir/build.make CMakeFiles/AlgorithmTester.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlgorithmPracticeTool.dir/build.make CMakeFiles/AlgorithmPracticeTool.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -174,7 +174,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlgorithmTester.dir/build.make CMakeFiles/AlgorithmTester.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlgorithmPracticeTool.dir/build.make CMakeFiles/AlgorithmPracticeTool.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -185,10 +185,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... AlgorithmTester"
-	@echo "... src/Tester.o"
-	@echo "... src/Tester.i"
-	@echo "... src/Tester.s"
+	@echo "... AlgorithmPracticeTool"
+	@echo "... src/Profiler.o"
+	@echo "... src/Profiler.i"
+	@echo "... src/Profiler.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

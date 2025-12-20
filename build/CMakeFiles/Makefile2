@@ -63,11 +63,11 @@ CMAKE_BINARY_DIR = /Users/michael/Github/Algorithms-Practice/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/AlgorithmTester.dir/all
+all: CMakeFiles/AlgorithmPracticeTool.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen: CMakeFiles/AlgorithmTester.dir/codegen
+codegen: CMakeFiles/AlgorithmPracticeTool.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -75,40 +75,40 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/AlgorithmTester.dir/clean
+clean: CMakeFiles/AlgorithmPracticeTool.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/AlgorithmTester.dir
+# Target rules for target CMakeFiles/AlgorithmPracticeTool.dir
 
 # All Build rule for target.
-CMakeFiles/AlgorithmTester.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlgorithmTester.dir/build.make CMakeFiles/AlgorithmTester.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlgorithmTester.dir/build.make CMakeFiles/AlgorithmTester.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/michael/Github/Algorithms-Practice/build/CMakeFiles --progress-num=1,2,3 "Built target AlgorithmTester"
-.PHONY : CMakeFiles/AlgorithmTester.dir/all
+CMakeFiles/AlgorithmPracticeTool.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlgorithmPracticeTool.dir/build.make CMakeFiles/AlgorithmPracticeTool.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlgorithmPracticeTool.dir/build.make CMakeFiles/AlgorithmPracticeTool.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/michael/Github/Algorithms-Practice/build/CMakeFiles --progress-num=1,2,3 "Built target AlgorithmPracticeTool"
+.PHONY : CMakeFiles/AlgorithmPracticeTool.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/AlgorithmTester.dir/rule: cmake_check_build_system
+CMakeFiles/AlgorithmPracticeTool.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/michael/Github/Algorithms-Practice/build/CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/AlgorithmTester.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/AlgorithmPracticeTool.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/michael/Github/Algorithms-Practice/build/CMakeFiles 0
-.PHONY : CMakeFiles/AlgorithmTester.dir/rule
+.PHONY : CMakeFiles/AlgorithmPracticeTool.dir/rule
 
 # Convenience name for target.
-AlgorithmTester: CMakeFiles/AlgorithmTester.dir/rule
-.PHONY : AlgorithmTester
+AlgorithmPracticeTool: CMakeFiles/AlgorithmPracticeTool.dir/rule
+.PHONY : AlgorithmPracticeTool
 
 # codegen rule for target.
-CMakeFiles/AlgorithmTester.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlgorithmTester.dir/build.make CMakeFiles/AlgorithmTester.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/michael/Github/Algorithms-Practice/build/CMakeFiles --progress-num=1,2,3 "Finished codegen for target AlgorithmTester"
-.PHONY : CMakeFiles/AlgorithmTester.dir/codegen
+CMakeFiles/AlgorithmPracticeTool.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlgorithmPracticeTool.dir/build.make CMakeFiles/AlgorithmPracticeTool.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/michael/Github/Algorithms-Practice/build/CMakeFiles --progress-num=1,2,3 "Finished codegen for target AlgorithmPracticeTool"
+.PHONY : CMakeFiles/AlgorithmPracticeTool.dir/codegen
 
 # clean rule for target.
-CMakeFiles/AlgorithmTester.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlgorithmTester.dir/build.make CMakeFiles/AlgorithmTester.dir/clean
-.PHONY : CMakeFiles/AlgorithmTester.dir/clean
+CMakeFiles/AlgorithmPracticeTool.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlgorithmPracticeTool.dir/build.make CMakeFiles/AlgorithmPracticeTool.dir/clean
+.PHONY : CMakeFiles/AlgorithmPracticeTool.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

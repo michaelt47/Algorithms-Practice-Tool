@@ -1,10 +1,10 @@
-#include "Tester.h"
+#include "Profiler.h"
 #include <iostream>
 #include <filesystem>
 
 namespace fs = std::filesystem;
 
-void Tester::runOnFiles(
+void Profiler::runOnFiles(
     FileSizeMode mode,
     Algorithm *algorithm)
 {

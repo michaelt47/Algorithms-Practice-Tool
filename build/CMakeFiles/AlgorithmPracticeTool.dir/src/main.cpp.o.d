@@ -1,4 +1,4 @@
-CMakeFiles/AlgorithmTester.dir/src/main.cpp.o: \
+CMakeFiles/AlgorithmPracticeTool.dir/src/main.cpp.o: \
   /Users/michael/Github/Algorithms-Practice/src/main.cpp \
   /Users/michael/Github/Algorithms-Practice/src/ProfilerWrapper.cpp \
   /Users/michael/Github/Algorithms-Practice/include/Profiler.h \
