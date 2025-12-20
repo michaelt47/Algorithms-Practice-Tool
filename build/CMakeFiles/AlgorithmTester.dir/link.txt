@@ -1,0 +1,1 @@
+/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/AlgorithmTester.dir/src/main.cpp.o CMakeFiles/AlgorithmTester.dir/src/Tester.cpp.o -o /Users/michael/Github/Algorithms-Practice/bin/AlgorithmTester   -L/opt/homebrew/lib

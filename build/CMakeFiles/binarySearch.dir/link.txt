@@ -1,0 +1,1 @@
+/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/binarySearch.dir/SimpleAlgs/binarySearch.cpp.o -o /Users/michael/Github/Algorithms-Practice/bin/binarySearch   -L/opt/homebrew/lib
