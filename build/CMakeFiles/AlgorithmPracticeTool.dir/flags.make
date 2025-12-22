@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/opt/homebrew/include -I/Users/michael/Github/Algorithms-Practice/include -I/Users/michael/Github/Algorithms-Practice/SimpleAlgs
+CXX_INCLUDES = -I/opt/homebrew/include -I/Users/michael/Github/Algorithms-Practice/include -I/Users/michael/Github/Algorithms-Practice/SimpleAlgs -I/Users/michael/Github/Algorithms-Practice/GraphAlgs
 
 CXX_FLAGSarm64 = -std=gnu++17 -arch arm64
 

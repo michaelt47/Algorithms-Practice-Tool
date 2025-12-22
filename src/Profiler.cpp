@@ -25,7 +25,7 @@ void Profiler::runOnFiles(
             std::to_string(elapsed.count()) +
             " ms to run on " + file.string() + "\n";
         
-        buffer += algorithm->results();
+        buffer += results;
 
         std::cout << buffer;
         

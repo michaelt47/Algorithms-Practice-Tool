@@ -13,6 +13,7 @@ endif()
 
 include_directories(include)
 include_directories(SimpleAlgs)
+include_directories(GraphAlgs)
 
 set(SOURCES
     src/main.cpp

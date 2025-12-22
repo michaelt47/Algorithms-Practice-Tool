@@ -4,6 +4,8 @@
 
 namespace fs = std::filesystem;
 
+// TODO
+// Change class name to the algorithm name
 class AlgorithmName : public Algorithm {
 public:
     // TODO

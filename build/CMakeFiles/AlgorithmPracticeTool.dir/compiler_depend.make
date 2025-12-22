@@ -1476,6 +1476,7 @@ CMakeFiles/AlgorithmPracticeTool.dir/src/main.cpp.o: /Users/michael/Github/Algor
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/print \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/queue \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ratio \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stack \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdexcept \
@@ -1627,21 +1628,30 @@ CMakeFiles/AlgorithmPracticeTool.dir/src/main.cpp.o: /Users/michael/Github/Algor
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_time.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_wchar.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_wctype.h \
+  /Users/michael/Github/Algorithms-Practice/GraphAlgs/DepthFirstSearch.cpp \
   /Users/michael/Github/Algorithms-Practice/SimpleAlgs/BinarySearch.cpp \
   /Users/michael/Github/Algorithms-Practice/SimpleAlgs/MergeSort.cpp \
   /Users/michael/Github/Algorithms-Practice/SimpleAlgs/RadixSort.cpp \
   /Users/michael/Github/Algorithms-Practice/SimpleAlgs/Summation.cpp \
   /Users/michael/Github/Algorithms-Practice/include/Algorithm.h \
+  /Users/michael/Github/Algorithms-Practice/include/GraphLoader.h \
   /Users/michael/Github/Algorithms-Practice/include/IntArrayLoader.h \
   /Users/michael/Github/Algorithms-Practice/include/Profiler.h \
+  /Users/michael/Github/Algorithms-Practice/include/graphs.h \
   /Users/michael/Github/Algorithms-Practice/src/ProfilerWrapper.cpp
 
 
 /Users/michael/Github/Algorithms-Practice/src/ProfilerWrapper.cpp:
 
+/Users/michael/Github/Algorithms-Practice/include/graphs.h:
+
+/Users/michael/Github/Algorithms-Practice/include/GraphLoader.h:
+
 /Users/michael/Github/Algorithms-Practice/SimpleAlgs/Summation.cpp:
 
 /Users/michael/Github/Algorithms-Practice/SimpleAlgs/MergeSort.cpp:
+
+/Users/michael/Github/Algorithms-Practice/GraphAlgs/DepthFirstSearch.cpp:
 
 /Users/michael/Github/Algorithms-Practice/src/main.cpp:
 
@@ -2386,6 +2396,8 @@ CMakeFiles/AlgorithmPracticeTool.dir/src/main.cpp.o: /Users/michael/Github/Algor
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/has_unique_object_representation.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/remainder.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_options.h:
 

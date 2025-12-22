@@ -5,7 +5,8 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "${workspaceFolder}/include/**",
-                "${workspaceFolder}/SimpleAlgs/**"
+                "${workspaceFolder}/SimpleAlgs/**",
+                "${workspaceFolder}/GraphAlgs/**"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/clang",

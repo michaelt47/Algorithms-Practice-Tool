@@ -10,11 +10,10 @@ inline bool loadIntFile(
     const fs::path& filePath,
     int*& outArray,
     size_t& outLength
-)
-{
+) {
     outArray = nullptr;
     outLength = 0;
-    
+
     std::ifstream file(filePath);
     if (!file.is_open())
     {

@@ -818,4 +818,8 @@ CMakeFiles/AlgorithmPracticeTool.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/fstream \
   /Users/michael/Github/Algorithms-Practice/SimpleAlgs/BinarySearch.cpp \
   /Users/michael/Github/Algorithms-Practice/SimpleAlgs/MergeSort.cpp \
-  /Users/michael/Github/Algorithms-Practice/SimpleAlgs/RadixSort.cpp
+  /Users/michael/Github/Algorithms-Practice/SimpleAlgs/RadixSort.cpp \
+  /Users/michael/Github/Algorithms-Practice/GraphAlgs/DepthFirstSearch.cpp \
+  /Users/michael/Github/Algorithms-Practice/include/GraphLoader.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream \
+  /Users/michael/Github/Algorithms-Practice/include/graphs.h
