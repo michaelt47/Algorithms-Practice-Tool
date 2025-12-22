@@ -27,6 +27,7 @@ public:
     }
 
     bool loadFile(const fs::path &file) override {
+        result = "";
         return loadIntFile(file, data, dataLength);
     }
 

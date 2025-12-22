@@ -7,6 +7,12 @@ namespace fs = std::filesystem;
 class AlgorithmName : public Algorithm {
 public:
     // TODO
+    // Free any heap memory used
+    ~AlgorithmName() {
+        delete[] data;
+    }
+
+    // TODO
     // Update Algorithm Name
     std::string name() const override { return "Algorithm Name"; }
     // TODO
@@ -24,6 +30,7 @@ public:
     // TODO
     // Use the correct loader to load the input data
     bool loadFile(const fs::path &file) override {
+        result = "";
         return loadIntFile(file, data, dataLength);
     }
 
@@ -48,7 +55,7 @@ private:
 
     // TODO
     // Implement the algorithm
-    inline void algorithm() const {
+    inline void algorithm() {
 
     }
 };

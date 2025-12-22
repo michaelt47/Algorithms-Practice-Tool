@@ -1628,6 +1628,8 @@ CMakeFiles/AlgorithmPracticeTool.dir/src/main.cpp.o: /Users/michael/Github/Algor
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_wchar.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_wctype.h \
   /Users/michael/Github/Algorithms-Practice/SimpleAlgs/BinarySearch.cpp \
+  /Users/michael/Github/Algorithms-Practice/SimpleAlgs/MergeSort.cpp \
+  /Users/michael/Github/Algorithms-Practice/SimpleAlgs/RadixSort.cpp \
   /Users/michael/Github/Algorithms-Practice/SimpleAlgs/Summation.cpp \
   /Users/michael/Github/Algorithms-Practice/include/Algorithm.h \
   /Users/michael/Github/Algorithms-Practice/include/IntArrayLoader.h \
@@ -1638,6 +1640,8 @@ CMakeFiles/AlgorithmPracticeTool.dir/src/main.cpp.o: /Users/michael/Github/Algor
 /Users/michael/Github/Algorithms-Practice/src/ProfilerWrapper.cpp:
 
 /Users/michael/Github/Algorithms-Practice/SimpleAlgs/Summation.cpp:
+
+/Users/michael/Github/Algorithms-Practice/SimpleAlgs/MergeSort.cpp:
 
 /Users/michael/Github/Algorithms-Practice/src/main.cpp:
 
@@ -2022,6 +2026,8 @@ CMakeFiles/AlgorithmPracticeTool.dir/src/main.cpp.o: /Users/michael/Github/Algor
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/allocator_destructor.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/machine/_mcontext.h:
+
+/Users/michael/Github/Algorithms-Practice/SimpleAlgs/RadixSort.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivially_lexicographically_comparable.h:
 

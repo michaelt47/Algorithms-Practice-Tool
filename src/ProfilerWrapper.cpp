@@ -1,7 +1,11 @@
 #include "Profiler.h"
 #include "Algorithm.h"
+
 #include "Summation.cpp"
 #include "BinarySearch.cpp"
+#include "MergeSort.cpp"
+#include "RadixSort.cpp"
+
 
 using namespace std;
 
@@ -11,6 +15,10 @@ void getAlgorithm(const string &algStr, const string &modeStr,
         algorithm = new BinarySearch();
     } else if (Summation::alias(algStr)) {
         algorithm = new Summation();
+    } else if (MergeSort::alias(algStr)) {
+        algorithm = new MergeSort();
+    } else if (RadixSort::alias(algStr)) {
+        algorithm = new RadixSort();
     } else {
         cout << "Invalid algorithm\n";
         exit(0);
