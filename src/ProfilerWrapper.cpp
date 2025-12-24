@@ -5,7 +5,9 @@
 #include "BinarySearch.cpp"
 #include "MergeSort.cpp"
 #include "RadixSort.cpp"
+
 #include "DepthFirstSearch.cpp"
+#include "BreadthFirstSearch.cpp"
 
 
 using namespace std;
@@ -22,6 +24,8 @@ void getAlgorithm(const string &algStr, const string &modeStr,
         algorithm = new RadixSort();
     } else if (DepthFirstSearch::alias(algStr)) {
         algorithm = new DepthFirstSearch();
+    } else if (BreadthFirstSearch::alias(algStr)) {
+        algorithm = new BreadthFirstSearch();
     } else {
         cout << "Invalid algorithm\n";
         exit(0);
